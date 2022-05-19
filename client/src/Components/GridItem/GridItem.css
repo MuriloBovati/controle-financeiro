@@ -1,0 +1,18 @@
+.ItemTable{
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nomeItem{
+    width: 46%;
+}
+
+.valorItem{
+    width: 55%;
+}
+
+.tipoItem{
+    width: 10%;
+}

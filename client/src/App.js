@@ -44,12 +44,15 @@ function App() {
 
     localStorage.setItem("transactions", JSON.stringify(newArrayTransactions))
   }
-
   return (
     <div className="App">
       <Header/>
       <Resumo income={income} expense={expense} total={total}/>
-      <Form handleAdd={handleAdd}/>
+      <Form 
+        handleAdd={handleAdd} 
+        transactionList={transactionsList}
+        setTransactionsList={setTransactionsList}
+      />
     </div>
   );
 }
