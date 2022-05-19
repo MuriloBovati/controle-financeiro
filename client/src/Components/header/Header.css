@@ -1,0 +1,10 @@
+.ContainerHead{
+    height: 150px;
+    text-align: center;
+    background: teal ;
+}
+
+.Title{
+    padding-top: 40px;
+    color: #fff;
+}
